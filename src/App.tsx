@@ -110,14 +110,14 @@ export default function App() {
             })}
         </div>
 
-      <h4>palpite</h4>
+        <h4>palpite</h4>
 
-      <div className={styles.guess}>
-        <Input autoFocus maxLength={1} placeholder="?" value={letter} onChange={(e) => setLetter(e.target.value)} />
-        <Button title="confirmar" onClick={handleConfirm} />
-      </div>
+        <div className={styles.guess}>
+          <Input autoFocus maxLength={1} placeholder="?" value={letter} onChange={(e) => setLetter(e.target.value)} />
+          <Button title="confirmar" onClick={handleConfirm} />
+        </div>
 
-      <UsedLetters data={usedLetters}/>
+        <UsedLetters data={usedLetters}/>
       </main>
     </div>
   )
