@@ -1,0 +1,18 @@
+.usedLetters {
+  width: 100%;
+  margin-top: 3.25rem;
+  border-top: 1px solid #c3c3c3;
+}
+
+.usedLetters h5 {
+  font-weight: 600;
+  color: #32325f;
+  font-size: 1rem;
+  margin: 0.75rem 0;
+}
+
+.usedLetters > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
